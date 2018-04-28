@@ -1,0 +1,42 @@
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+
+.HeaderDiv .navbar-brand {
+  height: 80px;
+}
+
+.HeaderDiv .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+.ml-auto, .mx-auto
+{
+margin-left:40px !important;
+}
+
+.provender-navbar-input {
+  padding: 11px 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0 none;
+  outline: 0 none;
+  font-size: 15px;
+}
+
+.provender-navbar-button {
+  background-color: #a18e0d;
+  border: 1px solid #a18e0d;
+  border-radius: 0 2px 2px 0;
+  color: #565656;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  
+}

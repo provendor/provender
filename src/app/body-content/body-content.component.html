@@ -1,0 +1,13 @@
+<div class="container-fluid" style="padding: 10px">
+<div class="itembox" *ngFor='let item of items'>
+  <div><span><label><b>Item Id: primary key invisble </b> </label>{{item.item_id}}</span><span class="glyphicon glyphicon-heart" style="float: right;"><button  onclick="AddTowishList()"><i style="font-size:28px;" class="far fa-heart"></i></button></span></div>
+  <div><img src="..\assets\images\apple.png"/></div>
+  <div><label><b>Item Name: </b></label>{{item.item_name}}</div>
+  <div><label><b>Item ratings: </b> </label>{{item.item_ratings}}</div>
+  <div><label><b>Item price: </b></label>{{item.item_price}}</div>
+  <div><label><b>Item seller: </b></label>{{item.item_seller}}</div>
+  <!-- <div style="float: right;" ><span><button type="button" class="btn btn-info">Check</button></span><span style="padding-left: 10px;"><button type="button" class="btn btn-info">Add</button></span></div> -->
+</div>
+</div>
+
+<app-footer-component></app-footer-component>
